@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/ip/axi_uartlite_1/sim/axi_uartlite_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_uartlite_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/ip/axi_uartlite_0/sim/axi_uartlite_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_uartlite_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/new/uart_rx_tx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_rx_tx'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/new/uart_comm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_comm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sim_1/new/uart_comm_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_comm_test'

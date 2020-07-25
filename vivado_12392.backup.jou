@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jul 25 15:14:57 2020
+# Process ID: 12392
+# Current directory: C:/Users/User/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7472
+# Log file: C:/Users/User/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/User/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Downloads/practical_uart_comm_complete/practical_uart_comm_complete/practical/practical.xpr
+launch_simulation
+source uart_comm_test.tcl
+close_sim
+archive_project D:/Sem7/HDL/Project/Uart_Comm_Test.xpr.zip -temp_dir C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12392-DESKTOP-MV18312 -force -include_local_ip_cache

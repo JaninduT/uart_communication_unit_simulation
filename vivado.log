@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jul 25 16:27:30 2020
+# Process ID: 7176
+# Current directory: C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5292 C:\Users\User\Downloads\uart\Uart_Comm_Test.xpr\practical\practical.xpr
+# Log file: C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/vivado.log
+# Journal file: C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/User/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12392-DESKTOP-MV18312/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 875.273 ; gain = 233.609
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'uart_comm_test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/blk_mem_gen_0.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/ram.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/image_ram.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/ram_data.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj uart_comm_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj uart_comm_test_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/ip/axi_uartlite_1/sim/axi_uartlite_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_uartlite_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/ip/axi_uartlite_0/sim/axi_uartlite_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_uartlite_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/new/uart_rx_tx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_rx_tx'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sources_1/new/uart_comm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_comm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.srcs/sim_1/new/uart_comm_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_comm_test'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim'
+"xelab -wto 552d43e973ba45cd9136b6f168d95ade --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_uartlite_v2_0_24 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot uart_comm_test_behav xil_defaultlib.uart_comm_test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 552d43e973ba45cd9136b6f168d95ade --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_uartlite_v2_0_24 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot uart_comm_test_behav xil_defaultlib.uart_comm_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lib_pkg_v1_0_2.lib_pkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture rtl of entity axi_uartlite_v2_0_24.baudrate [\baudrate(c_ratio=54)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_2.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_f [\srl_fifo_f(c_dwidth=8,c_family=...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_24.uartlite_rx [\uartlite_rx(c_family="artix7")(...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_24.uartlite_tx [\uartlite_tx(c_family="artix7")(...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_24.uartlite_core [\uartlite_core(c_family="artix7"...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=4,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_24.axi_uartlite [\axi_uartlite(c_family="artix7",...]
+Compiling architecture axi_uartlite_0_arch of entity xil_defaultlib.axi_uartlite_0 [axi_uartlite_0_default]
+Compiling architecture axi_uartlite_1_arch of entity xil_defaultlib.axi_uartlite_1 [axi_uartlite_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_rx_tx [uart_rx_tx_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_comm [uart_comm_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.uart_comm_test
+Built simulation snapshot uart_comm_test_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/xsim.dir/uart_comm_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim/xsim.dir/uart_comm_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Jul 25 16:30:05 2020. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Jul 25 16:30:05 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 929.344 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/User/Downloads/uart/Uart_Comm_Test.xpr/practical/practical.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "uart_comm_test_behav -key {Behavioral:sim_1:Functional:uart_comm_test} -tclbatch {uart_comm_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source uart_comm_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module uart_comm_test.block_ram_1.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module uart_comm_test.block_ram_2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 963.035 ; gain = 32.914
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'uart_comm_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:34 . Memory (MB): peak = 963.035 ; gain = 34.180
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 963.371 ; gain = 0.336
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 25 16:31:42 2020...

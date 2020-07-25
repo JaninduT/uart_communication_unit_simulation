@@ -1,0 +1,23 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../practical.srcs/sources_1/new/assignment.vhd" \
+"../../../../practical.srcs/sources_1/new/convolve.vhd" \
+"../../../../practical.srcs/sources_1/new/ram_convolve.vhd" \
+"../../../../practical.srcs/sources_1/ip/axi_uartlite_1/sim/axi_uartlite_1.vhd" \
+"../../../../practical.srcs/sources_1/ip/axi_uartlite_0/sim/axi_uartlite_0.vhd" \
+"../../../../practical.srcs/sources_1/new/uart_rx_tx.vhd" \
+"../../../../practical.srcs/sources_1/new/and.vhd" \
+"../../../../practical.srcs/sources_1/new/or_gate.vhd" \
+"../../../../practical.srcs/sources_1/new/final_schm.vhd" \
+"../../../../practical.srcs/sources_1/new/uart_send.vhd" \
+"../../../../practical.srcs/sources_1/new/uart_receive.vhd" \
+"../../../../practical.srcs/sources_1/new/uart_comm.vhd" \
+"../../../../practical.srcs/sim_1/new/uart_rx_tx_test.vhd" \
+"../../../../practical.srcs/sim_1/new/testbench.vhd" \
+"../../../../practical.srcs/sim_1/new/ram_convolve_test.vhd" \
+"../../../../practical.srcs/sim_1/new/convolve_test.vhd" \
+"../../../../practical.srcs/sim_1/new/uart_test.vhd" \
+"../../../../practical.srcs/sim_1/new/assignment_test.vhd" \
+
+# Do not sort compile order
+nosort
